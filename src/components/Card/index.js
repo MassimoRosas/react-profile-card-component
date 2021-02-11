@@ -7,17 +7,17 @@ const Card = () => (
     <span className="card-age">26</span>
     <h3 className="card-city">London</h3>
     <ul className="card-data">
-      <li>
-        <h2>80K</h2>
-        <p>Followers</p>
+      <li className="card-data-item">
+        <h2 className="card-data-item-number">80K</h2>
+        <p className="card-data-item-title">Followers</p>
       </li>
-      <li>
-        <h2>803K</h2>
-        <p>Likes</p>
+      <li className="card-data-item">
+        <h2 className="card-data-item-number">803K</h2>
+        <p className="card-data-item-title">Likes</p>
       </li>
-      <li>
-        <h2>1.4K</h2>
-        <p>Photos</p>
+      <li className="card-data-item">
+        <h2 className="card-data-item-number">1.4K</h2>
+        <p className="card-data-item-title">Photos</p>
       </li>
     </ul>
   </div>
