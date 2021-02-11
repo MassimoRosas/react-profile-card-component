@@ -1,0 +1,65 @@
+@import 'src/styles/vars';
+
+.card {
+  text-align: center;
+  background-color: #fff;
+  width: 330px;
+  height: fit-content;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 10px 20px 80px rgba(0, 0, 0, 0.397);
+  background-image: url('../../../public/images/bg-pattern-card.svg');
+  background-repeat: no-repeat;
+
+  .card-img {
+    border-radius: 100px;
+    border: solid white 7px;
+    margin-top: 4.7em;
+    margin-bottom: 1em;
+  }
+
+  .card-name {
+    font-weight: bold;
+    margin-bottom: 0.4em;
+  }
+
+  .card-age {
+    font-weight: lighter;
+    margin-left: 0.5em;
+    color: $dark-grey-blue;
+  }
+
+  .card-city {
+    color: $dark-grey;
+    font-size: 15px;
+  }
+
+  .card-data {
+    display: flex;
+    margin: auto;
+    margin-top: 1.2em;
+    justify-content: center;
+    padding: 1.5em;
+    border-top: solid 1px $dark-grey;
+
+    .card-data-item {
+      margin: auto;
+
+      .card-data-item-number {
+        font-weight: bold;
+      }
+
+      .card-data-item-title {
+        color: $dark-grey;
+        font-size: 12px;
+        margin-top: 0.5em;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  
+
+}

@@ -1,12 +1,15 @@
 import React from 'react';
 
 import CardImg from '../../../public/images/image-victor.jpg';
+import './card.scss';
 
 const Card = () => (
   <div className="card">
     <img src={CardImg} alt="card-img" className="card-img" />
-    <h2 className="card-name">Victor Crest</h2>
-    <span className="card-age">26</span>
+    <h2 className="card-name">
+      Victor Crest
+      <span className="card-age">26</span>
+    </h2>
     <h3 className="card-city">London</h3>
     <ul className="card-data">
       <li className="card-data-item">
