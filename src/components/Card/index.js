@@ -1,8 +1,10 @@
 import React from 'react';
 
+import CardImg from '../../../public/images/image-victor.jpg';
+
 const Card = () => (
   <div className="card">
-    <img alt="card-img" className="card-img" />
+    <img src={CardImg} alt="card-img" className="card-img" />
     <h2 className="card-name">Victor Crest</h2>
     <span className="card-age">26</span>
     <h3 className="card-city">London</h3>

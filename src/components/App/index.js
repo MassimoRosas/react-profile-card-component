@@ -3,11 +3,12 @@ import React from 'react';
 
 // == Import
 import Card from '../Card';
+import './app.scss';
 
 // == Composant
 const App = () => (
   <div className="app">
-    <Card></Card>
+    <Card />
   </div>
 );
 

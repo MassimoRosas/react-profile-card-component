@@ -1,0 +1,18 @@
+@import 'src/styles/vars';
+
+.app {
+  height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: $dark-cyan;
+  background-repeat: no-repeat;
+  background-image: url('../../../public/images/bg-pattern-top.svg'), url('../../../public/images/bg-pattern-bottom.svg');
+  background-position: -750px -550px, 150px 250px;
+}
+
+@media screen and (min-width: 1440px) {
+
+  .app {
+    background-image: url('../../../public/images/bg-pattern-top.svg'), url('../../../public/images/bg-pattern-bottom.svg');
+    background-position:  -250px -550px, 675px 300px;
+  }
+}
